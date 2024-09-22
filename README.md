@@ -3,6 +3,8 @@
 ## Overview
 This project demonstrates how to use Windows Management Instrumentation (WMI) in C# to retrieve system information, specifically the operating system's last boot-up time. The code connects to a local or remote machine using credentials and queries the `Win32_OperatingSystem` WMI class.
 
+![Running Project](https://res.cloudinary.com/maheshdharhari/image/upload/v1726996725/Blog/GetOperatingSystemInfo.png)
+
 ## Features
 - Retrieve OS information from local or remote machines.
 - Use of `ManagementScope` and `ConnectionOptions` for remote connections.
